@@ -17,11 +17,11 @@ export default function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Download<span className="hidden sm:inline"> on GitHub</span>
+                Felizmente creado por <span className="hidden sm:inline"> JuanMartin</span>
               </a>{' '}
-              <span className="italic px-1.5">or</span>{' '}
-              <a className="font-medium hover:underline text-emerald-400" href="https://cruip.com/open-pro/" target="_blank" rel="noreferrer">
-                Check Premium Version
+              <span className="italic px-1.5">en </span>{' '}
+              <a className="font-medium hover:underline text-emerald-400" href="" target="_blank" rel="noreferrer">
+                Argentina
               </a>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
