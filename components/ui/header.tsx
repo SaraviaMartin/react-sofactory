@@ -10,7 +10,10 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <img className='img-logo' src="https://sofactoryagency.com/img/logo%20png.png" alt="logo-de-sofactory-pequeño" />
+            <Link href="/">
+              <img className='img-logo' src="https://sofactoryagency.com/img/logo%20png.png" alt="logo-de-sofactory-pequeño" />
+            </Link>
+            
           </div>
 
           {/* Desktop navigation */}
